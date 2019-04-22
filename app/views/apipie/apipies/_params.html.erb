@@ -16,7 +16,7 @@
     <td>
       <%= param[:description].html_safe %>
       <%- if param[:validations].present? || param[:validator].present? %>
-        <p><strong>Validations:</strong></p>
+        <p><strong>Validações:</strong></p>
         <ul>
           <%- if param[:validator].present? %>
             <li><%= Apipie.markup_to_html(param[:validator]).html_safe %></li>

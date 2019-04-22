@@ -545,7 +545,7 @@ describe UsersController do
                      :required=>false,
                      :allow_nil => false,
                      :allow_blank => false,
-                     :validator=>"Must be a String",
+                     :validator=>"Must be a String XX",
                      :description=>"\n<p>Authorization</p>\n",
                      :name=>"oauth",
                      :show=>true,

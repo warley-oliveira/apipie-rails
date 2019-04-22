@@ -119,7 +119,7 @@ module Apipie
       end
 
       def description
-        "Must be a #{@type}"
+        "Deve ser #{@type}"
       end
 
       def expected_type
@@ -200,7 +200,7 @@ module Apipie
       end
 
       def description
-        "Must be an array of #{items}"
+        "Deve ser um Array de #{items}"
       end
 
       def expected_type
@@ -251,7 +251,7 @@ module Apipie
 
       def items
         unless enum
-          @items_type || "any type"
+          @items_type || "Inteiros"
         else
           enum.inspect
         end
@@ -361,7 +361,7 @@ module Apipie
       end
 
       def description
-        "Must be a Hash"
+        "Deve ser Hash"
       end
 
       def expected_type
@@ -422,7 +422,7 @@ module Apipie
       end
 
       def description
-        "Must be a decimal number."
+        "Deve ser numéro decimal."
       end
 
       def self.validate(value)
@@ -443,7 +443,7 @@ module Apipie
       end
 
       def description
-        "Must be a number."
+        "Deve ser número."
       end
 
       def expected_type
@@ -514,7 +514,7 @@ module Apipie
       end
 
       def description
-        "Must be an Array of nested elements"
+        "Deve ser um Array of nested elements"
       end
 
       def params_ordered
